@@ -1,0 +1,11 @@
+{
+  "name": "sms-schedule-agent",
+  "version": "1.0.0",
+  "description": "Twilio SMS -> Claude parsing -> Google Calendar event creation",
+  "main": "api/sms.js",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "googleapis": "^144.0.0",
+    "twilio": "^5.3.0"
+  }
+}
